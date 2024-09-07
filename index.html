@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Hall</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="w-full h-screen flex justify-center items-center workSans"> 
+    <div class="mainContainer w-[90%] h-[90%] flex justify-center items-center workSans rounded-3xl">
+        <div class="container flex justify-center items-start gap-3 flex-col rounded-2xl px-10 w-1/2 border-none">
+            <div class="box flex justify-center items-center gap-3 flex-col rounded-2xl p-5 w-full border-none">
+                <p class="text-5xl lilitaOneRegular tracking-wide mt-5">LOGIN</p>
+                <p class="text-sm mb-7 font-medium" >Login to start exam</p>
+                <form action="" class="flex justify-center items-start gap-3 flex-col w-full">
+                    <label for="username" class="text-left font-semibold tracking-wide">Username</label>
+                    <input id="username" class="w-full bg-white p-[14px] rounded-md outline-none" type="text" name="username" placeholder="Enter your username">
+                    <label for="password" class="text-left  font-semibold tracking-wide">Password</label>
+                    <input id="password" class="w-full bg-white p-[14px] rounded-md outline-none" type="password" name="password" placeholder="Enter your password">
+                    <input type="submit" class="w-full loginBtn text-white my-2 p-[14px] rounded-md font-bold tracking-wider" value="LOGIN">
+                </form>
+            </div>
+        </div>
+        <div class="w-1/2 h-full flex items-center justify-center">
+            <img class="w-[480px] h-auto" src="./login.png" alt="LOGO">
+        </div>
+    </div>
+</body>
+</html>
