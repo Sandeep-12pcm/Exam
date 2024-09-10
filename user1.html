@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white h-screen flex justify-center items-center">
+    <div class="w-full bg-gray-800 text-white p-4">
+        <h1 class="text-center text-4xl mt-12 mb-4">Welcome to the Online Examination</h1>
+    </div>
+    <div class="w-full p-4 bg-white rounded-md shadow-md">
+        <div class="font-bold text-3xl mb-6">User Details</div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-2/3 px-3">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label for="name" id="name-label" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Name:</label>
+                        <label for="name" id="name-value" class="text-gray-500 text-lg">Sandeep</label>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label for="phone" id="phone" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Phone:</label>
+                        <label for="phone" id="phone" class="text-gray-500 text-lg"> 7303042793 </label>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label for="email" id="id" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Email:</label>
+                        <label for="email" id="id" class="text-gray-500 text-lg"> ssamdeepkkumar@gmail.com </label>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label for="address" id="id" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Address:</label>
+                        <label for="address" id="id" class="text-gray-500 text-lg"> Ahmedabad Gujarat </label>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label for="school" id="school" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">School:</label>
+                        <label for="school" id="school" class="text-gray-500 text-lg"> IITRAM </label>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label for="application" id="application" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Application:</label>
+                        <label for="application" id="application" class="text-gray-500 text-lg"> 231040012013 </label>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 px-3">
+                <img class="rounded-md w-48 h-48 object-cover" src="sandeep_pic.jpg" alt="profile" aria-label="Profile picture">
+            </div>
+            
+        </div>
+        <input type="checkbox" name="agreement" id="agreement" value="yes" required aria-label="Agreement checkbox">
+        <label for="agreement" class="text-gray-500 text-lg">I have read the above details, and I hereby confirm that the above details are correct and true.</label>
+        <br>
+        <input class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" type="submit" name="submit" id="submit" value="Submit">
+    
+
+    </div>
+    <div>
+        <footer class="w-full bg-gray-800 text-white p-20 mt-4">
+            <p class="text-center py-4">© 2024 Online Examination</p>
+        </footer>
+    </div>
+</body>
+</html>
